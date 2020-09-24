@@ -1,0 +1,257 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-15T14:52:18.245Z",
+        "line": 3,
+        "name": "To test Sign in Page",
+        "description": "",
+        "id": "validate-the-sign-in-page;to-test-sign-in-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21097485100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on Rediff Landing Page",
+            "match": {
+              "location": "ForgotPassword.user_is_on_rediff_landing_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 708788900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User Clicks on Sign in Link",
+            "match": {
+              "location": "ForgotPassword.user_clicks_on_sign_in_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 787626500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the Fogort Password Link",
+            "match": {
+              "location": "ForgotPassword.user_clicks_on_the_fogort_password_link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 320477100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Forgot Passowrd page opens",
+            "match": {
+              "location": "ForgotPassword.forgot_passowrd_page_opens()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Validate the Sign in Page",
+    "description": "",
+    "id": "validate-the-sign-in-page",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/rediff/features/ForgotPassword.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-15T14:52:41.177Z",
+        "line": 13,
+        "name": "To Checks the Login Functionality",
+        "description": "",
+        "id": "to-test-login-page-in-homepage;to-checks-the-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8800529500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is opens the browser and goes to \"http://www.rediff.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.rediff.com",
+                  "offset": 39
+                }
+              ],
+              "location": "RediffLogin.user_is_opens_the_browser_and_goes_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2782302000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Rediffmail icon",
+            "match": {
+              "location": "RediffLogin.user_clicks_on_rediffmail_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5375950600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters invalid username test and password pass",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test",
+                  "offset": 29
+                },
+                {
+                  "val": "pass",
+                  "offset": 47
+                }
+              ],
+              "location": "RediffLogin.user_enters_invalid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2027023700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sees the error message on the page",
+            "match": {
+              "location": "RediffLogin.user_sees_the_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2494298600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "closes the browser",
+            "match": {
+              "location": "RediffLogin.closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-15T14:53:02.664Z",
+        "line": 14,
+        "name": "To Checks the Login Functionality",
+        "description": "",
+        "id": "to-test-login-page-in-homepage;to-checks-the-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 13176779500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is opens the browser and goes to \"http://www.rediff.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://www.rediff.com",
+                  "offset": 39
+                }
+              ],
+              "location": "RediffLogin.user_is_opens_the_browser_and_goes_to_something(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3624463500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks on Rediffmail icon",
+            "match": {
+              "location": "RediffLogin.user_clicks_on_rediffmail_icon()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3170287600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters invalid username test2 and password fail",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test2",
+                  "offset": 29
+                },
+                {
+                  "val": "fail",
+                  "offset": 48
+                }
+              ],
+              "location": "RediffLogin.user_enters_invalid_username_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2030269900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User sees the error message on the page",
+            "match": {
+              "location": "RediffLogin.user_sees_the_error_message_on_the_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4893678800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "closes the browser",
+            "match": {
+              "location": "RediffLogin.closes_the_browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To test Login Page in HomePage",
+    "description": "",
+    "id": "to-test-login-page-in-homepage",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/rediff/features/Login.feature",
+    "tags": []
+  }
+]

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="71.313911">
+<testcase classname="Validate the Sign in Page" name="To test Sign in Page" time="22.931045">
+<system-out><![CDATA[Given User is on Rediff Landing Page........................................passed
+And User Clicks on Sign in Link.............................................passed
+When User clicks on the Fogort Password Link................................passed
+Then Forgot Passowrd page opens.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Login Page in HomePage" name="To Checks the Login Functionality" time="21.485986">
+<system-out><![CDATA[Given User is opens the browser and goes to "http://www.rediff.com".........passed
+And User clicks on Rediffmail icon..........................................passed
+When User enters invalid username test and password pass....................passed
+Then User sees the error message on the page................................passed
+And closes the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Login Page in HomePage" name="To Checks the Login Functionality 2" time="26.89688">
+<system-out><![CDATA[Given User is opens the browser and goes to "http://www.rediff.com".........passed
+And User clicks on Rediffmail icon..........................................passed
+When User enters invalid username test2 and password fail...................passed
+Then User sees the error message on the page................................passed
+And closes the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
