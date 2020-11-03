@@ -24,6 +24,6 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
         plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
         monochrome=true
 		)
-public class RediffRunner extends AbstractTestNGCucumberTests {
+public class RediffTest extends AbstractTestNGCucumberTests {
 	
 }
